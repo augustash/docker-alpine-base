@@ -3,7 +3,7 @@ services:
   alpine-base:
     build:
       context: .
-    image: augustash/alpine-base
+    image: augustash/alpine-base:4.0.0
     labels:
       - "com.augustash.description=August Ash Alpine Base Image"
       - "com.augustash.development-only"
